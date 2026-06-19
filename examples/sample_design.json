@@ -1,0 +1,47 @@
+{
+  "document": {
+    "children": [
+      {
+        "name": "Login Card",
+        "type": "FRAME",
+        "absoluteBoundingBox": { "x": 0, "y": 0, "width": 360, "height": 240 },
+        "fills": [{ "type": "SOLID", "visible": true, "color": { "r": 1, "g": 1, "b": 1 } }],
+        "cornerRadius": 12,
+        "children": [
+          {
+            "name": "Title",
+            "type": "TEXT",
+            "absoluteBoundingBox": { "x": 24, "y": 24, "width": 200, "height": 32 },
+            "characters": "Welcome Back",
+            "style": { "fontSize": 24, "fontWeight": 700 },
+            "fills": [{ "type": "SOLID", "visible": true, "color": { "r": 0.1, "g": 0.1, "b": 0.1 } }]
+          },
+          {
+            "name": "Email Input",
+            "type": "RECTANGLE",
+            "absoluteBoundingBox": { "x": 24, "y": 72, "width": 312, "height": 40 },
+            "fills": [{ "type": "SOLID", "visible": true, "color": { "r": 0.95, "g": 0.95, "b": 0.95 } }],
+            "cornerRadius": 6
+          },
+          {
+            "name": "Login Button",
+            "type": "RECTANGLE",
+            "absoluteBoundingBox": { "x": 24, "y": 160, "width": 312, "height": 44 },
+            "fills": [{ "type": "SOLID", "visible": true, "color": { "r": 0.27, "g": 0.45, "b": 0.94 } }],
+            "cornerRadius": 8,
+            "children": [
+              {
+                "name": "Button Label",
+                "type": "TEXT",
+                "absoluteBoundingBox": { "x": 150, "y": 172, "width": 60, "height": 20 },
+                "characters": "Log In",
+                "style": { "fontSize": 16, "fontWeight": 600 },
+                "fills": [{ "type": "SOLID", "visible": true, "color": { "r": 1, "g": 1, "b": 1 } }]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
